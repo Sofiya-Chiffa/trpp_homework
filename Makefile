@@ -9,12 +9,8 @@ YTFZF_SYSTEM_ADDON_DIR=${PREFIX}/share/ytfzf/addons
 
 .DEFAULT_GOAL := default
 
-all: oh no ok
+all:
 
-default: install doc
-Yt
-Yt
-Yt
 doc:
 	mkdir -p ${DESTDIR}${MANDIR}/man1
 	mkdir -p ${DESTDIR}${MANDIR}/man5
